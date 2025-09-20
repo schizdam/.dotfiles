@@ -1,0 +1,11 @@
+# Startup Applications
+xwayland force
+
+# autotiling
+exec --no-startup-id autotiling
+
+# wallpaper
+# exec --no-startup-id waypaper --restore
+# exec --no-startup-id variety --restore
+# exec_always swaybg -i /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1366x768.png -m fill
+exec_always swaybg -i $HOME/.config/sway/wallpaper-02.jpg -m fill
