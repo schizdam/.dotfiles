@@ -6,6 +6,8 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+x exec swaynag -t warning -m 'Do you really want to exit sway?' -B 'Yes, exit sway' 'swaymsg exit'
 floating_modifier $mod normal
 
+bindsym $mod+Shift+slash exec $term -e $HOME/.config/sway/scripts/keybindings.sh
+
 # Lock Screen
 # bindsym $mod+e exec --no-startup-id ~/.config/sway/scripts/swaylock.sh
 # bindsym $mod+c exec hyprlock
