@@ -76,7 +76,7 @@
     "format-disconnected": "  Disconnected",
     "interval": 5,
     "tooltip-format-wifi": " {bandwidthDownBytes} |  {bandwidthUpBytes}",
-   // "on-click": "swaymsg exec gnome-control-center network"
+    "on-click": "swaymsg exec 'alacritty -e nmtui'"
   },
 
   "network#speed": {
@@ -87,7 +87,8 @@
   "pulseaudio": {
     "format": "  {volume}%",
     "format-muted": " M",
-    "tooltip-format": "{desc}"
+    "tooltip-format": "{desc}",
+    "on-click": "swaymsg exec 'alacritty -e ncpamixer'"
   },
 
   "backlight": {
