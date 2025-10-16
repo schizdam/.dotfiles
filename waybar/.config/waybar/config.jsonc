@@ -19,6 +19,7 @@
     "pulseaudio",
     "backlight",
     "temperature",
+    "bluetooth",
     "network"
   ],
 
@@ -68,6 +69,18 @@
     "critical-threshold": 70,
     "format": " {temperatureC}°C",
     "format-critical": " {temperatureC}°C (Critical!!)"
+  },
+
+  "bluetooth": {
+    "format": "{status}",
+    "format-connected": "{device_alias:10}",  
+    "format-off": "",
+    "format-on": "",
+    "on-click": "blueman-manager",
+    "max-length": 10,
+    "tooltip-format": "{controller_alias} {controller_address}\n{device_enumerate}",
+    "tooltip-format-connected": "{controller_alias} {controller_address}\n{device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias:10} {device_address}" 
   },
 
   "network": {
