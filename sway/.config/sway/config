@@ -1,7 +1,7 @@
 include ~/.config/sway/variables
 include ~/.config/sway/colorschemes/folke
 include ~/.config/sway/outputs
-# include ~/.config/sway/inputs
+include ~/.config/sway/input
 include ~/.config/sway/startup
 
 include ~/.config/sway/keybindings/basics

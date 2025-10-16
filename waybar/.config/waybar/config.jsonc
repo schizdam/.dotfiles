@@ -73,8 +73,8 @@
   },
 
   "sway/language": {
-   "format": "{}",
-   "on-click": "$HOME/.config/sway/scripts/switch-kb.sh"
+   "format": "{short} {variant}",
+   "on-click": "swaymsg exec 'swaymsg input type:keyboard xkb_switch_layout next'"
   },
 
   "bluetooth": {
