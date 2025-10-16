@@ -20,6 +20,7 @@ window#waybar {
 #cpu,
 #memory,
 #temperature,
+#language,
 #bluetooth,
 #network,
 #pulseaudio,
@@ -96,6 +97,11 @@ window#waybar {
 #temperature {
   color: @temperature;
   border: 2px solid @temperature;
+}
+
+#language {
+  color: @pulseaudio;
+  border: 2px solid @pulseaudio;
 }
 
 #bluetooth {

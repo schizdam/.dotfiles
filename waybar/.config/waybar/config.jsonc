@@ -19,6 +19,7 @@
     "pulseaudio",
     "backlight",
     "temperature",
+    "sway/language",
     "bluetooth",
     "network"
   ],
@@ -69,6 +70,11 @@
     "critical-threshold": 70,
     "format": " {temperatureC}°C",
     "format-critical": " {temperatureC}°C (Critical!!)"
+  },
+
+  "sway/language": {
+   "format": "{}",
+   "on-click": "$HOME/.config/sway/scripts/switch-kb.sh"
   },
 
   "bluetooth": {
