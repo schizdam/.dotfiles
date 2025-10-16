@@ -72,15 +72,13 @@
   },
 
   "bluetooth": {
-    "format": "{status}",
-    "format-connected": "{device_alias:10}",  
-    "format-off": "",
-    "format-on": "",
-    "on-click": "blueman-manager",
-    "max-length": 10,
-    "tooltip-format": "{controller_alias} {controller_address}\n{device_enumerate}",
-    "tooltip-format-connected": "{controller_alias} {controller_address}\n{device_enumerate}",
-    "tooltip-format-enumerate-connected": "{device_alias:10} {device_address}" 
+    "format-on": "󰂯",
+    "format-off": "󰂲",
+    "format-disabled": "󰂲", 
+    "format-connected": "󰂱 {num_connections}",
+    "tooltip-format-connected": "{device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+    "on-click": "swaymsg exec 'alacritty -e bluetuith'"
   },
 
   "network": {
