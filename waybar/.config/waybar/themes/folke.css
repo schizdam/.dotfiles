@@ -15,6 +15,8 @@
 @define-color cpu              #f7768e; /* Pinkish red */
 @define-color memory           #7dcfff; /* Sky blue */
 @define-color temperature      #ff9e64; /* Warm orange */
+@define-color language         #c0caf5;
+@define-color bluetooth        #73daca;
 @define-color network          #73daca; /* Aqua green */
 @define-color pulseaudio       #c0caf5; /* Foreground tone for balance */
 @define-color backlight        #7aa2f7; /* Reuse blue for visual consistency */

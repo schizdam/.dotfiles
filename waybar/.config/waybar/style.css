@@ -100,13 +100,13 @@ window#waybar {
 }
 
 #language {
-  color: @pulseaudio;
-  border: 2px solid @pulseaudio;
+  color: @language;
+  border: 2px solid @language;
 }
 
 #bluetooth {
-  color: @network;
-  border: 2px solid @network;
+  color: @bluetooth;
+  border: 2px solid @bluetooth;
 }
 
 #network {
